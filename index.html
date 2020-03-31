@@ -16,10 +16,10 @@
          <div class="container">
             <div class="menu">
                 <div class="menu-link active">
-                    <a>Главная</a>
+                    <a href="#home">Главная</a>
                 </div>
                 <div class="menu-link">
-                    <a>Наши проекты</a>
+                    <a href="#projects">Наши проекты</a>
                 </div>
                 <div class="menu-link">
                     <a>Услуги</a>
@@ -38,7 +38,7 @@
             <div class="home-content">
                 <p class="home-subtitle">Передовая IT студия</p>
                 <p class="home-title">Мы создаем легкие решения сложных задач и проблем</p>
-                <a class="home-btn">Наши проекты</a>
+                <div style="text-align: center; margin-top: 30px;"><a class="home-btn">Наши проекты</a></div>
             </div>
          </div>
      </section>
@@ -61,7 +61,7 @@
                 <img src="project.png" alt="first project"/>
                 <img src="project.png" alt="first project"/>
             </div>
-            <div class="project-footer">
+            <div class="project-footer"  style="text-align: center; margin-top: 30px;">
                 <a>Все проекты</a>
             </div>
         </div>
@@ -85,8 +85,17 @@
             </div>
         </div>
     </section>
-    <section>
-        Section 7
+    <section class="email" id="email">
+        <div class="container">
+            <p class="title">Подпишитесь на нашу рассылку</p>
+            <p class="subtitle">Полезные статьи, акции, новости - получите все это сейчас!</p>
+            <div class="email-content">
+                <input type="email" placeholder="Ваш e-mail">
+                <button>Подписаться</button>
+                <p class="error">Invalid email</p>
+            </div>
+            <p class="email-footer">Мы не шлем спам, и передаем никому ваши данные.</p>
+        </div>
     </section>
      <footer>
          Footer
